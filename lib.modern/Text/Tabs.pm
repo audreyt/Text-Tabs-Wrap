@@ -178,7 +178,7 @@ what you've got.
 =head1 BUGS
 
 Text::Tabs handles only tabs (C<"\t">) and combining characters (C</\pM/>).  It doesn't
-count backwards for backspaces (C<"\t">), omit other non-printing control characters (C</\pC/>),
+count backwards for backspaces (C<"\b">), omit other non-printing control characters (C</\pC/>),
 or otherwise deal with any other zero-, half-, and full-width characters.
 
 =head1 LICENSE
